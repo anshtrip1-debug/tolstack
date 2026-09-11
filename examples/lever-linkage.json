@@ -1,0 +1,12 @@
+{
+  "name": "Pivot to pivot span, formed sheet lever",
+  "units": "mm",
+  "lower": 89.700,
+  "upper": 90.300,
+  "dimensions": [
+    { "name": "blank length",    "nominal": 120.000, "tol": 0.150, "direction":  1, "dist": "normal", "sigma_ratio": 3.0, "shift": 0.040 },
+    { "name": "bend allowance",  "nominal":  18.400, "tol": 0.120, "direction": -1, "dist": "triangular" },
+    { "name": "hole 1 position", "nominal":   6.000, "tol": 0.080, "direction": -1, "dist": "normal" },
+    { "name": "hole 2 position", "nominal":   5.600, "tol": 0.080, "direction": -1, "dist": "normal" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Bearing seat clearance, gearbox output shaft",
+  "units": "mm",
+  "lower": 0.020,
+  "upper": 0.180,
+  "dimensions": [
+    { "name": "housing bore",    "nominal": 40.000, "tol": 0.050, "direction":  1, "dist": "normal",     "sigma_ratio": 3.0 },
+    { "name": "bearing od",      "nominal": 39.960, "tol": 0.012, "direction": -1, "dist": "normal",     "sigma_ratio": 4.0 },
+    { "name": "bore roundness",  "nominal":  0.000, "tol": 0.015, "direction":  1, "dist": "triangular" },
+    { "name": "seat wear allow", "nominal":  0.060, "tol": 0.020, "direction":  1, "dist": "uniform",    "shift": 0.005 }
+  ]
+}
