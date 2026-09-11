@@ -13,7 +13,7 @@ inside a spec. There are three ways to predict that gap:
   usually so pessimistic that you buy tolerances you never needed.
 - **RSS.** Root sum square of the bands. Assumes everything is normal,
   centred and independent. Closer, but it lies the moment a process runs
-  off-centre or a dimension is uniform.
+  off-center or a dimension is uniform.
 - **Monte Carlo.** Sample each dimension from the distribution it actually
   has. Slower, and right.
 
